@@ -3,17 +3,17 @@ cask "costa-beta" do
   name "costa-beta"
   desc ""
   homepage ""
-  version "0.0.1-alpha.3"
+  version "0.0.1-alpha.5"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
-  binary "costa-beta"
+  binary "costa"
 
   on_macos do
     url "https://github.com/costa-app/costa-cli/releases/download/v#{version}/costa-cli_#{version}_darwin_all.tar.gz"
-    sha256 "ab774c100cdd77aad3e7f313a6f0810582bfe8db5a4688e35bb616e8f2f16926"
+    sha256 "31c00d70063eb6f951f091eea9512d139fef58a30ab75e18055997e5c769666a"
   end
 
   # No zap stanza required
