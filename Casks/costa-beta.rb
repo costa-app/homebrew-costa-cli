@@ -3,7 +3,7 @@ cask "costa-beta" do
   name "costa-beta"
   desc ""
   homepage ""
-  version "0.0.2-alpha1"
+  version "0.0.2-alpha.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,17 +13,17 @@ cask "costa-beta" do
 
   on_macos do
     url "https://github.com/costa-app/costa-cli/releases/download/v#{version}/costa-cli_#{version}_darwin_all.tar.gz"
-    sha256 "00da9c5b27738106716e8958dc2a24ca12721c302daabbe788e24fb5a0e3214b"
+    sha256 "2387d4ef5104fb3e9fddf62899303856b7d79de3f44743ae0807407a20348e82"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/costa-app/costa-cli/releases/download/v#{version}/costa-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "36d615bea4440fac1773c4439619de65d4cd7106b2d0e6652e0bced831b45003"
+      sha256 "cfd0faa6201121e38c799387295f3d1bf28cecf2c96bd20b521d1b169d6f200f"
     end
     on_arm do
       url "https://github.com/costa-app/costa-cli/releases/download/v#{version}/costa-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "84d217d986e3afbfa1cfb67d57fb7056a1e55406cc2f2262defe5457af322aeb"
+      sha256 "ef3b18e80e9dcde8c200a4659471ff0633fc661e101cc961b2627bdf87731481"
     end
   end
 
